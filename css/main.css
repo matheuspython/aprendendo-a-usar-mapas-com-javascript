@@ -8,4 +8,39 @@ html,
 body {
     height: 100%;
     font-family: sans-serif;
+    background-color: rgb(112, 112, 184);
+    color: white;
+}
+
+.text-wraper {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.maps-container {
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    width: 98%;
+}
+
+.map h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mapa {
+    width: 400px;
+    height: 400px;
+}
+
+@media screen and (max-width: 825px) {
+    .maps-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .mapa {
+        width: 100%;
+    }
 }
